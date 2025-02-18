@@ -31,4 +31,12 @@
 - I felt If this project was fun, I would excel at it, and impress my teacher.
 - I wanted to have fun creating this project. (I had fun)
 
-## 
+## App creating journey:
+
+- This application began as a slightly different version of the **"Get The Gold"** app. My programming skills are not as strong as I would like, so I decided to approach this project this way. 
+
+### Example of **"Get The Gold"** app:
+![Image of designer page of MIT App Inventor](images/getTheGoldDesigner.png)
+![Image of block code for the MIT App Inventor](images/getTheGoldBlockCode.png)
+
+### 
