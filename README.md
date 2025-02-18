@@ -105,11 +105,85 @@
   - The I am happy with my knowledge gained by this assignment, this really helped me to understand how things work in a program related to modular codes, and debugging, I was able to debug the program in multiple ways, as well as "commenting out blocks of code", then testing new blocks of code I would create to do the same functions. This would allow me to see if the issue was still present, if the issue was gone after, then I could convert my code to the new method. 
   - The code over all is almost completely different than the original code, with many attributes added, and a strong effort was put into this project. 
   - **The entire project took me a total of about 45 hours** I estimate, when including debugging, and trial & error.  
-  - Although my program is not perfect I believe 
+  - Although my program is not perfect I believe that I can fix the issues with more time. To do this I would continue to use the previously explained debugging methods. and possibly re write this code from scratch, but with a different logic to see what final product works best, now that my "MVP" is completed. 
+  
+  ### Images of completed code and explanations: 
+
+  **This code initializes the different global variables to 0 or a selected value as they will need to start at 0. There is two variables which are initialized to empty strings, but later will be replaced with the value selected by the randomly picked value from an array list.**
+  ![Image of the initializations](images/completed1.png)
+
+**Here is an image of the array list I created, I did at one point include more items in this list, but later decided to proceed without the additional items as it was becoming very complex, and new issues with my code were showing up. I would have loved to continue, but I needed to make a choice to spend more time, or not.**
+  ![Image of the array list](images/completed2.png)
+
+  1. **The "Clean Up!", button starts the games music, enables the timer, sets the bins to visible, makes sure all the imageSprites are not visible before randomly choosing an imageSprite to start with cleaning up. It also resets the score to 0/10. In this function it says random integer from 1 to 3,there is no 0 index in MIT App Inventor.**
+   
+  2. **The "Done", button stops the music, turns all imageSprites to not visible, except the "finalBoss" image of a dog that surprises the user at the end of the game, once the total score has been reached. This button also resets the score to 0, once this button has been clicked.(I used multiple efforts to ensure the code functions as it should in the execution of other code, so this is why I set global score to zero, possibly an opportunity for code redundancy reduction)**
+![Image shows code for 2 button functions](images/completed3.png)
+
+
+**This function is potentially not required, as it could also be added to the "Clean up button" function. Again I set all the imageSprites to not visible right away so that when the program is initialized it does not show  the imageSprites. Additionally this function also chooses a random imageSprite to appear. (This may be a part of why I am getting multiple imageSprites appearing as the program runs)**
+![Image of the initialize function](images/completed4.png)
+
+
+**These functions are very simple and they mimic the "Get The Gold" apps functions. These make the imageSprites bounce off the edges of the canvas, I am not sure if there is another way I can make the imageSprites bounce off the walls when they hit the edge?**
+![Image of the code functions when edge is reached](images/completed6.png)
+
+
+**This function I did consider a procedure that might reduce this duplication but the collided with control function does not allow a universal control block, so this needs to remain individualized at this point. When the imageSprite collides with the specified objects, it presents a negative noise, a red coloured warning, and the word "Nope", which lets the user know this is not correct.**
+![Image of the negative noise when items hit wrong targets](images/completed7.png)
+
+
+**This function is for randomly choosing an item, I created this to reduce the amount of code in my app, so I can easily find the bugs in the code, and reduce redundancy, improving efficiency. I learned my lesson in this project about how important this is when creating code, the more complex the more difficult the issue can become to find. A small debugging, may be a large issue if these practices are not followed. If we use multi modular codes, it is much easier to locate and fix the issue, with less time consumed.**
+![Image of code made into procedure, for duplicate use](images/completed8.png)
+
+
+**The code shown below is a duplicate to the code in the "Get The Gold" app. I kept this code because I did like the way that it worked, I tested the code without the bins moving, and my children did not find it as fun, so I decided to keep this function in the program. What this code does is just randomly moves the specified bins around the canvas, so it is more difficult to win the game.**
+![Image of code related to the bins moving](images/completed10.png)
+
+
+**This code is the main action function of this program:**
+- Checks to see if the correct item has collided with the specified bin.
+- If correct, the imageSprite that hits the bin becomes not visible. 
+- Plays a positive sound to alert the user. 
+- Displays the word Correct with a green background. 
+- Updates the Score
+- Double checks that the ImageSprite has hit the correct bin and is visible or not visible as needed. The "If, Then, Else if, Then", code, is an example of an attempt to test the functions in the code to see where my issue may be likely this step is not essential to the codes operation. 
+- If score equals 10/10, the function shows an image, gives a positive remark.
+- Resets the game to 0 
+- randomly chooses the next imageSprite. 
+
+**If there is an issue with my code, it is very likely that this function is where it would happen, as I look over the code block right now, I can see potential sections of code that I can make modular, to simplify and reduce redundant code. Possibly 3 procedures can be created. However, The issue with the procedures I would like to create is that they include individual items so I would need to be careful in which functions I might include in the procedures.**
+![Image of the main collision function](images/completedPositiveBinCollision.png)
 
 
 
+**Here is an example of making this major function more modular:**
+
+Image of the last code block broken apart.
+![Image of the last code block broken apart](images/example.png)
+
+Image of the procedures being created.
+![Image of the procedures being created](images/example2.png)
+
+Image of an example of the new procedures being called.
+![Image of an example of the new procedures being called](images/example3.png)
+**Note: Above, is just an example of how I might approach this, but the issue is the specific item would need to be handled differently. I would like to point out that I do understand that.**
+
+### Designer Page: 
+
+Image of the screen view in designer page.
+![Image of the screen view in designer page](images/completedDesigner.png)
+
+Image of the structure of the Design.
+![Image of the structure of the Design](images/completedDesigner2.png)
 
 
+### Complete Code Structure:
 
+Full Image of the entire code
+![Full Image of the entire code](images/fullyCompletedCode.png)
+
+
+## Conclusion 
+I explained a lot through the readme.md file, related to the specific details of the program. I would say that my main learnings would be to approach programming with a modular plan, I want to easily test my program at specific points, and be able to comment out my code. I learned how important incremental testing is, If this is not done, there will likely be hard to find bugs in the code later on, which will end up being more time consuming. The app does not run perfect, there is issues, but I am confident I would be able to fix these issues with more time. I believe I have met all the requirements in this assignment. My understanding of programming is growing rapidly, and I enjoyed creating this project. 
 
