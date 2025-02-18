@@ -46,4 +46,25 @@
 ![Image of the designer page of MIT App Inventor](images/attemptOneDesigner.png)
 
 ### Problem Code Function
-- Here I had spent 
+- Here I had spent a lot of my time on to figure out what was causing the issue, and troubleshoot the code. 
+- The code was appearing to be in good order to me, but the collisions between the "garbageBin" and the "trash" image sprites did not seem to work properly. 
+- The collisions between the "recycleBin" and the "bottle" image sprites did not seem to work properly either.
+- The code issue was very hard to figure out as I had checked over the code many times, some of the debugging I tried was "deactivating" specific portions of code, to attempt to isolate the issue in areas I suspected the code may have defects. Areas I suspected the issue may be would be in the "collision", functions. After many attempts to fix the issue I decided that this issue may be possibly caused by the the duplication of code. 
+- One of the things I wanted this program (game) to do in an attempt to solve the issue was create a list of items and run through each item one at a time. I felt that too many items moving at one time, was possibly causing the problem. 
+- I knew that I would be adding more items to the list in order to make the game more complex, so a list would make sense. 
+- Another issue with my code is possibly I am attempting to do to many things at the same time in the same function. I would later decide to try to create modular functions that may create a more optimal design to my code, and make this issue more easily found. 
+
+### Images of the problem codes
+
+**Note:** The issues with this code is that the "Trash", is entering into the "recycleBin", this did solve the issue of the "Trash" not entering into the correct bin, but it was obvious this is not correct, and the issue is located some other place within the code.   
+
+![Image of problem code single function](images/problemCodeFunction.png)
+![Image of the duplication of redundant code](images/problemCodeGroupFunctions.png)
+
+
+### Adding more imageSprites & code: 
+- I made attempts to create modular code, to add more imageSprites to the code, and at one point this became so complex once I ran into an issue with the code that I needed to back track, and reduce my code to a more simple version of the program, so I could begin again. 
+- I created specific functions for the negative noises, and the negative reactions of the game when the imageSprites go into the wrong bins. 
+- I created a list of items that could be randomly extracted, one at a time, and ran thought the code, if one was successfully placed into the correct bin, the next random item would be chosen and placed into the game visibly. 
+- Still the code has problems with this function of which I will mention later in this readme.md file. 
+
