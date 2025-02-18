@@ -39,4 +39,11 @@
 ![Image of designer page of MIT App Inventor](images/getTheGoldDesigner.png)
 ![Image of block code for the MIT App Inventor](images/getTheGoldBlockCode.png)
 
-### 
+### This is my attempt one of the code: 
+- At this point in the project I was having issues, the sprites all were moving as should, the music plays and stops, and the litter sprites appear/disappear. The "garbage" sprite does not bounce, it hits the wall, and stays, but it does fling, it does not react when it hits the garbage bin, or any... I felt like I had too many duplicate functions.
+
+![Image of the block code I was stuck on](images/attemptOneBlockCode.png)
+![Image of the designer page of MIT App Inventor](images/attemptOneDesigner.png)
+
+### Problem Code Function
+- Here I had spent 
