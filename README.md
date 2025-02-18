@@ -191,6 +191,10 @@ Full Image of the code after applying DRY method to it **I did this just before 
 ![Full Image of the code after applying DRY method to it](images/ApplyingDRYmethod.png)
 
 
+**Here is the .ai file of my MIT App Inventor Project. (If there is issues with this I did have a lot of trouble trying to get the file to sync, and maybe I can get help to send it)
+[Link to the .ai file for my project](<MIT_PROJECT_Week4 (4).aia>)
+
+
 ## Conclusion 
 I explained a lot through the readme.md file, related to the specific details of the program. I would say that my main learnings would be to approach programming with a modular plan, I want to easily test my program at specific points, and be able to comment out my code. I learned how important incremental testing is, If this is not done, there will likely be hard to find bugs in the code later on, which will end up being more time consuming. The app does not run perfect, there is issues, but I am confident I would be able to fix these issues with more time. I believe I have met all the requirements in this assignment. My understanding of programming is growing rapidly, and I enjoyed creating this project. 
 
