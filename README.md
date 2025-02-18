@@ -12,6 +12,7 @@
 ## Platforms used to complete this project:
 - I used **MIT App Inventor**, app get the gold which I had just finished completing and handing in. I used the codes to begin structuring my code, with a plan of altering the code, and deleting or adding features to it until it was a completely new code, and new app. 
 - I used a **Youtube MIT App Inventor video**, to help me to understand how the functions work, and try to solve an issue I was having with one of my functions related to colliding of the imageSprites. 
+- [YouTube video I used to help](https://www.youtube.com/watch?v=B0O5cDcG5C4) **This is a link to a youtube video I used to help me understand the functions similar to the code I created. 
 
 ## Features of the app: 
 - Six imageSprites (Three are litter: "Bottle", "Trash", "Banana peel". Three are Bins: "Recycle bin", "Garbage bin", "Organic bin")
@@ -36,7 +37,10 @@
 - This application began as a slightly different version of the **"Get The Gold"** app. My programming skills are not as strong as I would like, so I decided to approach this project this way. 
 
 ### Example of **"Get The Gold"** app:
+
 ![Image of designer page of MIT App Inventor](images/getTheGoldDesigner.png)
+
+This is the code I used to help begin my project, and understand how things were working, The code has many similarities, and I was able to debug its issues so I felt like this would be a good option for me. 
 ![Image of block code for the MIT App Inventor](images/getTheGoldBlockCode.png)
 
 ### This is my attempt one of the code: 
@@ -183,7 +187,12 @@ Image of the structure of the Design.
 Full Image of the entire code
 ![Full Image of the entire code](images/fullyCompletedCode.png)
 
+Full Image of the code after applying DRY method to it **I did this just before handing in, as I double checked the code, and I seen an opportunity for DRY method to be applied**.
+![Full Image of the code after applying DRY method to it](images/ApplyingDRYmethod.png)
+
 
 ## Conclusion 
 I explained a lot through the readme.md file, related to the specific details of the program. I would say that my main learnings would be to approach programming with a modular plan, I want to easily test my program at specific points, and be able to comment out my code. I learned how important incremental testing is, If this is not done, there will likely be hard to find bugs in the code later on, which will end up being more time consuming. The app does not run perfect, there is issues, but I am confident I would be able to fix these issues with more time. I believe I have met all the requirements in this assignment. My understanding of programming is growing rapidly, and I enjoyed creating this project. 
+
+
 
