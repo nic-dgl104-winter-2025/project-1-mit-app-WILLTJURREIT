@@ -54,11 +54,13 @@
 - I knew that I would be adding more items to the list in order to make the game more complex, so a list would make sense. 
 - Another issue with my code is possibly I am attempting to do to many things at the same time in the same function. I would later decide to try to create modular functions that may create a more optimal design to my code, and make this issue more easily found. 
 
-### Images of the problem codes
+## Images of the problem codes
 
 **Note:** The issues with this code is that the "Trash", is entering into the "recycleBin", this did solve the issue of the "Trash" not entering into the correct bin, but it was obvious this is not correct, and the issue is located some other place within the code.   
-
+### Image of problem code single function
 ![Image of problem code single function](images/problemCodeFunction.png)
+
+### Image of the duplication of redundant code
 ![Image of the duplication of redundant code](images/problemCodeGroupFunctions.png)
 
 
@@ -66,5 +68,48 @@
 - I made attempts to create modular code, to add more imageSprites to the code, and at one point this became so complex once I ran into an issue with the code that I needed to back track, and reduce my code to a more simple version of the program, so I could begin again. 
 - I created specific functions for the negative noises, and the negative reactions of the game when the imageSprites go into the wrong bins. 
 - I created a list of items that could be randomly extracted, one at a time, and ran thought the code, if one was successfully placed into the correct bin, the next random item would be chosen and placed into the game visibly. 
-- Still the code has problems with this function of which I will mention later in this readme.md file. 
+- Still the code has problems with this function of which I will mention later in this readme.md file.
+- After much consideration, I decided to stick to the program without the additional image sprites, but I will say that I would create this the same way as I did but with more items. I believe the issue may be in the way I have designed the collision functions, since I have so many items and only 3 bins, possibly my logic or approach is wrong. I may want to set the collision events to the "Litter", rather than the bins. If i set it up in this way possibly I would have less issues, except every collision function has to be specific to the individual item, and this I believe would create more redundant code. so I have stuck with this. 
+
+
+### Attempt to add more imageSprites image 1
+![Attempt to add more imageSprites image 1](images/attemptToAddImageSprites.png)
+
+### Attempt to add more imageSprites image 2
+![Attempt to add more imageSprites image 2](images/attemtToAddImageSprites2.png)
+
+
+### Reduction of redundant code by creating procedures: 
+  - I did not like that my collision functions had so much code, and it was creating a more complex debugging process, so I decided to create and use procedures where I could. 
+  - I gained a better understanding of the reason why more modular code is significant, and also the use of procedures. It is much easier to debug and look over specific smaller functions than it is to try to look over duplicate code abundant functions in multiple locations. I often found myself copying codes and pasting them, which is bad practice, and leaves chance of error if not checked thoroughly. 
+  
+### Image of deleted redundant code
+  ![Image of deleted redundant code](images/redundantDeletedCode.png)
+
+
+### Image of procedure created to handle redundant code
+  ![Image of procedure created to handle redundant code](images/procedure1Created.png)
+
+
+### Image of procedure to execute when game has been won
+  ![Image of procedure to execute when game has been won](images/procedure2Created.png)
+
+### **Note: I presented this section of my project to show my understanding of procedures, why we use them, and redundancy issues.**
+
+
+
+## Complete code: 
+
+### Notes: 
+  - I managed to get my code to function very close to how I wanted it to but there still is some issues which I will speak about later on. 
+  - The I am happy with my knowledge gained by this assignment, this really helped me to understand how things work in a program related to modular codes, and debugging, I was able to debug the program in multiple ways, as well as "commenting out blocks of code", then testing new blocks of code I would create to do the same functions. This would allow me to see if the issue was still present, if the issue was gone after, then I could convert my code to the new method. 
+  - The code over all is almost completely different than the original code, with many attributes added, and a strong effort was put into this project. 
+  - **The entire project took me a total of about 45 hours** I estimate, when including debugging, and trial & error.  
+  - Although my program is not perfect I believe 
+
+
+
+
+
+
 
